@@ -22,6 +22,8 @@ axum = { version = "0.5.16", features = ["form"]}
 tokio = { version = "1", features = ["macros", "rt-multi-thread"]}
 hyper = "0.14.20"
 serde = { version = "1", features = ["derive"]}
+uuid = { version = "0.8.1", features = ["v4"] }
+chrono = "0.4.15"
 
 [dependencies.sqlx]
 version = "0.5.7"
